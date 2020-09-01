@@ -1,2 +1,13 @@
-h1,h2,h3,h4,h5{font-family: 'Amiri', serif;}
-p{font-family: 'Josefin Sans', sans-serif;}
+body{margin:20px; padding:60px;background-color: black;}
+h1,h2{font-family: 'Josefin Sans', sans-serif;}
+h3,h4,h5{font-family: 'Josefin Sans', sans-serif; }
+
+p{font-family: 'Quattrocento', serif; border:3px solid ; border-color: black; padding:5px; color:black;background-color:#DCFFDD ;}
+ol,li,ul{font-family: 'Quattrocento', serif;}
+.grid-container{display: grid;}
+.grid-item1{grid-column-start: 1;
+            grid-column-end:2; padding:60px;
+}
+.grid-item2{grid-column-start: 2;
+            grid-column-end:3;
+            padding:60px;}
