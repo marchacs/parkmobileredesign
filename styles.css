@@ -12,7 +12,31 @@ ol,li,ul{font-family: 'Quattrocento', serif;}
 .grid-item2{grid-column-start: 2;
             grid-column-end:3;
             padding:30px;}
-.section1{background-color: white;padding-bottom: 5px;padding-left:20px; padding-right: 20px; padding-top:10px}
-.section2{background-color: white; padding-left:45px; padding-right:35px;}
-.section3{background-color: white; padding-top:20px; padding-left:20px; padding-right: 20px; padding-bottom: 20px;}
-.designquestion{max-width:80%; height:auto; padding-right:20px; padding-left:40px;padding-bottom:10px; }
+.section1{background-color: white;
+            padding-bottom: 5px;
+            padding-left:20px;
+            padding-right: 20px;
+            padding-top:10px}
+.section2{background-color: white;
+            padding-left:45px;
+            padding-right:35px;}
+.section3{background-color: white;
+            padding-top:20px;
+            padding-left:20px;
+            padding-right: 20px;
+            padding-bottom: 20px;}
+.section4{background-color: white;
+            padding-left:45px;
+            padding-right:35px;
+            padding-top:20px;
+            padding-bottom:20px;}
+.designquestion{max-width:80%;
+            height:auto;
+            padding-right:20px;
+            padding-left:40px;
+            padding-bottom:10px; }
+.center{
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 40%;}
