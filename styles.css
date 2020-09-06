@@ -1,9 +1,10 @@
 html{background-image:url(images/webbackground.jpg); background-repeat: repeat;}
 body{margin:20px; padding:80px;}
 h1{font-family: 'Josefin Sans', sans-serif; font-size:xxx-large; text-align:center; background-color: black; color:white; padding:30px;}
+a{ color:black;font-family:'Josefin Sans', sans-serif;}
 h2,h3,h4,h5{font-family: 'Josefin Sans', sans-serif; }
 
-p{font-family: 'Quattrocento', serif;  padding:5px; color:black;background-color:#DCFFDD ;}
+p{font-family: 'Quattrocento', serif;  padding:5px; color:black;}
 ol,li,ul{font-family: 'Quattrocento', serif;}
 .grid-container{display: grid;}
 .grid-item1{grid-column-start: 1;
@@ -19,7 +20,8 @@ ol,li,ul{font-family: 'Quattrocento', serif;}
             padding-top:10px}
 .section2{background-color: white;
             padding-left:45px;
-            padding-right:35px;}
+            padding-right:35px;
+            padding-top:20px}
 .section3{background-color: white;
             padding-top:20px;
             padding-left:20px;
@@ -31,6 +33,8 @@ ol,li,ul{font-family: 'Quattrocento', serif;}
             padding-top:20px;
             padding-bottom:20px;
 }
+
+
 .infoarch{max-width:75%; height:auto;}
 .section5{background-color: white;
             padding-left:45px;
@@ -66,3 +70,40 @@ padding:20px;}
 .item6{grid-column:2;
     grid-row-start:3;
 padding:20px;}
+
+.wire1{
+   grid-column-start:1;
+            grid-row-start:1;
+    max-width:10%;
+            height:auto;padding:5px;}
+.wire2{ grid-column-start:2;
+            grid-row-start:1;
+            max-width:10%;
+            height:auto; padding:5px;
+            }
+.redesign1{ grid-column-start:1;
+            grid-row-start:1;
+    max-width:10%;
+            height:auto;padding:5px;
+            }
+.redesign2{grid-column-start:2;
+            grid-row-start:1;
+            max-width:10%;
+            height:auto; padding:5px;
+            }
+
+.section6{background-color: white;
+            padding-left:45px;
+            padding-right:35px;
+            padding-top:20px;
+            padding-bottom:20px;}
+.section7{background-color: white;
+            padding-left:20px;
+            padding-right:35px;
+            padding-top:20px;
+            padding-bottom:20px;}
+.section8{background-color: white;
+            padding-left:20px;
+            padding-right:35px;
+            padding-top:20px;
+            padding-bottom:20px;}
