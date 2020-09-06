@@ -74,11 +74,11 @@ padding:20px;}
 .wire1{
    grid-column-start:1;
             grid-row-start:1;
-    max-width:10%;
+    max-width:50%;
             height:auto;padding:5px;}
 .wire2{ grid-column-start:2;
             grid-row-start:1;
-            max-width:10%;
+            max-width:50%;
             height:auto; padding:5px;
             }
 .redesign1{ grid-column-start:1;
