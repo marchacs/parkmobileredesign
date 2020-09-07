@@ -5,6 +5,7 @@ a{ color:black;font-family:'Josefin Sans', sans-serif;}
 h2,h3,h4,h5{font-family: 'Josefin Sans', sans-serif; }
 
 p{font-family: 'Quattrocento', serif;  padding:5px; color:black;}
+
 ol,li,ul{font-family: 'Quattrocento', serif;}
 .grid-container{display: grid;}
 .grid-item1{grid-column-start: 1;
@@ -107,3 +108,14 @@ padding:20px;}
             padding-right:35px;
             padding-top:20px;
             padding-bottom:20px;}
+
+.original1{grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:1;
+}
+.original2{grid-column-start:2;
+            grid-column-end:3;
+            grid-row-start:1;}
+.original3{grid-column-start:3;
+            grid-column-end:4;
+            grid-row-start:1;}
