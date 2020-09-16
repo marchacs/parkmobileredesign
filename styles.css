@@ -68,35 +68,57 @@ section{background-color: white;
 .wire1{
         grid-column-start:1;
         grid-row-start:1;
-        max-width:50%;
-        height:auto;padding:5px;}
+        max-width:75%;
+        height:auto;padding:5px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
 .wire2{ grid-column-start:2;
         grid-row-start:1;
-        max-width:50%;
+        max-width:75%;
         height:auto; padding:5px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
             }
 
 .redesign1{ grid-column-start:1;
             grid-row-start:1;
-            max-width:10%;
+            max-width:75%;
             height:auto;padding:5px;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
             }
 
 .redesign2{grid-column-start:2;
             grid-row-start:1;
-            max-width:10%;
+            max-width: 75%;
             height:auto; padding:5px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
             }
 
 .original1{grid-column-start:1;
             grid-column-end:2;
             grid-row-start:1;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .original2{grid-column-start:2;
             grid-column-end:3;
-            grid-row-start:1;}
+            grid-row-start:1;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
 .original3{grid-column-start:3;
             grid-column-end:4;
-            grid-row-start:1;}
+            grid-row-start:1;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+img{ max-width:100%;}
